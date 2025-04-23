@@ -1,0 +1,16 @@
+Ranking,Hyperparameters,CV_Score,Precision,Recall,F1_Score,Accuracy
+1,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 150, 'subsample': 0.8}",0.802426587,0.822569013,0.823936088,0.822081464,0.823936088
+2,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}",0.801965639,0.828086357,0.829313259,0.827488991,0.829313259
+3,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 150, 'subsample': 1.0}",0.801350491,0.821011532,0.822399754,0.820455797,0.822399754
+4,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}",0.80073617,0.829612426,0.830849593,0.829213671,0.830849593
+5,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 150, 'subsample': 1.0}",0.800582324,0.840908468,0.8419112,0.840413939,0.8419112
+6,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 150, 'subsample': 0.6}",0.80027416,0.82272846,0.824089722,0.822227697,0.824089722
+7,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}",0.799506819,0.814764315,0.816254417,0.814011865,0.816254417
+8,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 150, 'subsample': 1.0}",0.799353445,0.869000544,0.869565217,0.868534486,0.869565217
+9,"{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 1.0}",0.797970367,0.811608366,0.813181748,0.810881799,0.813181748
+10,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 150, 'subsample': 0.8}",0.797817465,0.841601028,0.842525734,0.840891095,0.842525734
+11,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100, 'subsample': 0.8}",0.797356636,0.851992396,0.852819173,0.851549,0.852819173
+12,"{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 50, 'subsample': 1.0}",0.797202554,0.856385827,0.85712091,0.855873851,0.85712091
+13,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100, 'subsample': 0.6}",0.79704918,0.851304629,0.852051006,0.850590342,0.852051006
+14,"{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 100, 'subsample': 1.0}",0.797048826,0.853546799,0.854355508,0.853127048,0.854355508
+15,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.6}",0.797048472,0.826001439,0.827316024,0.825637251,0.827316024

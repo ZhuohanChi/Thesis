@@ -1,0 +1,16 @@
+Ranking,Hyperparameters,CV_Score,Precision,Recall,F1_Score,Accuracy
+1,"{'border_count': 64, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 3, 'learning_rate': 0.05}",0.794604638,0.847793448,0.848882582,0.841898549,0.848882582
+2,"{'border_count': 64, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 3, 'learning_rate': 0.05}",0.79140937,0.862887132,0.86236254,0.856001495,0.86236254
+3,"{'border_count': 64, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.791056649,0.850035676,0.850656261,0.843554005,0.850656261
+4,"{'border_count': 32, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.79105602,0.85260754,0.853494147,0.846994727,0.853494147
+5,"{'border_count': 64, 'depth': 4, 'iterations': 100, 'l2_leaf_reg': 5, 'learning_rate': 0.1}",0.79034491,0.825028193,0.827598439,0.818304702,0.827598439
+6,"{'border_count': 32, 'depth': 8, 'iterations': 100, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.790341131,0.882103894,0.878325647,0.872140724,0.878325647
+7,"{'border_count': 32, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.789985891,0.862887132,0.86236254,0.856001495,0.86236254
+8,"{'border_count': 32, 'depth': 4, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.78928171,0.827546068,0.830081589,0.821255682,0.830081589
+9,"{'border_count': 128, 'depth': 6, 'iterations': 100, 'l2_leaf_reg': 3, 'learning_rate': 0.05}",0.789279821,0.825130342,0.826888968,0.816658885,0.826888968
+10,"{'border_count': 64, 'depth': 4, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.78892773,0.826908882,0.828662646,0.818787651,0.828662646
+11,"{'border_count': 64, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.788925841,0.861449664,0.860588861,0.853808037,0.860588861
+12,"{'border_count': 128, 'depth': 8, 'iterations': 300, 'l2_leaf_reg': 3, 'learning_rate': 0.1}",0.78857375,0.996470659,0.996452643,0.996446786,0.996452643
+13,"{'border_count': 128, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.78857312,0.857005521,0.85739624,0.851032416,0.85739624
+14,"{'border_count': 64, 'depth': 6, 'iterations': 100, 'l2_leaf_reg': 1, 'learning_rate': 0.1}",0.78857186,0.877107113,0.875487762,0.869964041,0.875487762
+15,"{'border_count': 32, 'depth': 8, 'iterations': 200, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.788571231,0.938756852,0.937211777,0.935749396,0.937211777

@@ -1,0 +1,38 @@
+ SELECT *
+FROM mimiciiiv14.chartevents
+WHERE 
+    icustay_id IN (
+        SELECT 
+            i.icustay_id
+        FROM 
+            mimiciiiv14.icustays i
+        JOIN 
+            mimiciiiv14.admissions a ON i.hadm_id = a.hadm_id
+        WHERE 
+            i.first_careunit = 'NICU'
+            AND (
+                a.hospital_expire_flag = 0
+                OR TIMESTAMPDIFF(MINUTE, i.intime, a.deathtime) > 120
+            )
+            AND i.subject_id NOT IN (
+                SELECT subject_id
+                FROM mimiciiiv14.icustays
+                WHERE first_careunit = 'NICU'
+                GROUP BY subject_id
+                HAVING COUNT(icustay_id) > 1
+            )
+    )
+    AND charttime BETWEEN (
+        SELECT i.intime 
+        FROM mimiciiiv14.icustays i 
+        WHERE mimiciiiv14.chartevents.icustay_id = i.icustay_id
+    ) 
+    AND (
+        SELECT DATE_ADD(i.intime, INTERVAL 120 MINUTE) 
+        FROM mimiciiiv14.icustays i 
+        WHERE mimiciiiv14.chartevents.icustay_id = i.icustay_id
+    )
+ORDER BY subject_id, charttime
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/nicu_chartevents_filtered.csv'
+FIELDS TERMINATED BY ',' ENCLOSED BY '"' 
+LINES TERMINATED BY '\n';

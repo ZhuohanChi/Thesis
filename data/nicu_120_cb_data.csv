@@ -1,0 +1,16 @@
+Ranking,Hyperparameters,CV_Score,Precision,Recall,F1_Score,Accuracy
+1,"{'border_count': 32, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.80058197,0.831175828,0.832385927,0.830798453,0.832385927
+2,"{'border_count': 128, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.800581616,0.827591087,0.828852358,0.827101956,0.828852358
+3,"{'border_count': 128, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 3, 'learning_rate': 0.05}",0.800581498,0.826337162,0.827623291,0.825842756,0.827623291
+4,"{'border_count': 32, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.800427652,0.829125309,0.830388693,0.828858183,0.830388693
+5,"{'border_count': 64, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.800274986,0.830262234,0.831464127,0.829749006,0.831464127
+6,"{'border_count': 64, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.79996694,0.833518592,0.834690429,0.833182371,0.834690429
+7,"{'border_count': 128, 'depth': 4, 'iterations': 200, 'l2_leaf_reg': 1, 'learning_rate': 0.1}",0.799814157,0.844497552,0.845444769,0.844034819,0.845444769
+8,"{'border_count': 128, 'depth': 6, 'iterations': 300, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.799660547,0.857206179,0.857889077,0.856585604,0.857889077
+9,"{'border_count': 128, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.799507173,0.834784257,0.835919496,0.834373684,0.835919496
+10,"{'border_count': 128, 'depth': 4, 'iterations': 300, 'l2_leaf_reg': 1, 'learning_rate': 0.1}",0.799353445,0.862933544,0.863573514,0.862436082,0.863573514
+11,"{'border_count': 64, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.799198537,0.83447887,0.835612229,0.834030619,0.835612229
+12,"{'border_count': 64, 'depth': 8, 'iterations': 100, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.799045872,0.849700134,0.850361039,0.848707638,0.850361039
+13,"{'border_count': 32, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 3, 'learning_rate': 0.05}",0.799045754,0.839990862,0.840989399,0.839419526,0.840989399
+14,"{'border_count': 32, 'depth': 4, 'iterations': 200, 'l2_leaf_reg': 1, 'learning_rate': 0.05}",0.798892026,0.815328738,0.816868951,0.814939883,0.816868951
+15,"{'border_count': 32, 'depth': 6, 'iterations': 200, 'l2_leaf_reg': 5, 'learning_rate': 0.05}",0.798892026,0.837305534,0.838377631,0.836822627,0.838377631
